@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+
 @import "tailwindcss";
 
 :root {
@@ -14,22 +19,33 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff;
+    --foreground: #282a3a;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+/* font */
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+.font-rocksalt {
+  font-family: "Rock Salt", cursive;
+}
+.font-jakarta {
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
+/* navbar */
 .navbar {
   display: flex;
   justify-content: space-between; /* kiri-tengah-kanan */
   align-items: center;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 4rem;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -41,13 +57,14 @@ body {
 
 .navbar-menu {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .navbar-menu a {
   text-decoration: none;
   color: #333;
   font-weight: 500;
+  font-size: 20px;
 }
 
 .navbar-menu a:hover {
@@ -57,7 +74,7 @@ body {
 .navbar-icons {
   display: flex;
   gap: 1rem;
-  font-size: 1rem;
+  font-size: 2rem;
   color: #333;
   cursor: pointer;
 }
