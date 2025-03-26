@@ -1,3 +1,4 @@
+import About from "@/components/about";
 import Navbar from "@/components/navbar";
 import CoffeeSelector from "@/components/selectorcoffee";
 
@@ -53,7 +54,8 @@ export default function CustomerPage() {
         <p className="text-6xl font-bold mt-10 font-rocksalt">From Top Quality Materials</p>
         </div>
         <CoffeeSelector/>
-
+        <About/>
+        
       </section>
     </div>
   );  

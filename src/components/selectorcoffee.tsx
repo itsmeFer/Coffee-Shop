@@ -50,7 +50,7 @@ export default function CoffeeSelector() {
   const categories = ["Latte", "Robusta", "Arabica"];
 
   return (
-    <div className="mt-20 flex flex-col items-center  min-h-screen">
+    <div className="mt-20 flex flex-col items-center">
       {/* ⬇️ Tombol Pilih Kategori */}
       <div className="flex bg-gray-100 rounded-full p-2 w-fit shadow-lg mb-10">
         {categories.map((category) => (
