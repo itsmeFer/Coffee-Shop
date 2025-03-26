@@ -17,7 +17,7 @@ export default function CustomerPage() {
           <br />
           where your evenings are perfected with relaxation and rich flavors.
         </p>
-        <button className="bg-[#651F0F] text-white py-8 px-28 text-2xl mt-8 rounded-full">
+        <button className="bg-[#651F0F] text-white py-8 px-28 text-2xl mt-8 rounded-full font-button">
           EXPLORE PRODUCT
         </button>
       </section>

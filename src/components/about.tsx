@@ -25,7 +25,7 @@ export default function About(){
 
             
             </div>
-            <button className="bg-[#651F0F] text-white py-8 px-30 text-2xl mt- rounded-full flex items-start ml-55">
+            <button className="bg-[#651F0F] text-white py-8 px-30 text-4xl mt- rounded-full flex items-start ml-55 font-button">
           Read More
         </button>
         </section>

@@ -5,6 +5,7 @@
 @custom-variant dark (&:is(.dark *));
 @import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
 
 @import "tailwindcss";
 
@@ -61,7 +62,9 @@ body {
 .font-jakarta {
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
-
+.font-button {
+  font-family: 'Amiri', serif;
+}
 /* navbar */
 .navbar {
   display: flex;
